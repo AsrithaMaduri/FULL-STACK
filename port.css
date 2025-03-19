@@ -1,0 +1,54 @@
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+}
+h1{
+    margin: auto;
+    text-align: center; 
+}
+p{
+    margin: auto;
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    text-align: center;   
+    border: 2px solid red;
+    border-radius: 25px;
+    border: 0cqmax;
+}
+h5{
+    text-align:center;
+    color:black;
+    margin: auto;
+    margin-right: auto;
+    margin-left:auto;
+}
+works{
+    width: 200px;
+    height: 200px;
+    border: 1px solid hsl(0, 0%, 80%);
+    margin: 10px;
+    display: inline-block; 
+    text-align: center;  
+    line-height: 200px;
+
+}
+ h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+ }
+ p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+ }
+ input[type="text"]{
+    color: bisque;
+    border: width 10px;
+ }
