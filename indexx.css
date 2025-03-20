@@ -1,0 +1,41 @@
+.class{
+    background-color:cyan;
+    padding: left 10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding: bottom 10px;
+    margin-left: 10px;margin-right: 10px;
+    border-radius: 40px;
+    text-align: center;
+    line-gap-override: 10px;
+    align-items:flex-end;
+}
+.cont1{
+    display: flex;
+    width: 100%;
+    background-color: darkseagreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+}
+.one,.two{
+    width: 50%;
+    padding: 20px;
+    margin: 0px;
+}
+.two{
+    border-left: 2px solid black;
+    border-collapse: collapse;
+}
+h4{
+    color:black;
+    margin-bottom: 5px;
+}
+p {
+    margin: 5px 0;
+    margin-top: 2px;  
+    margin-bottom: 5px;
+}
+.int :hover{
+    background-color:lavender;
+    color:darkseagreen;
+}
