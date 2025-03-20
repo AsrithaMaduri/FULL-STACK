@@ -2,17 +2,35 @@
 <head>
     <title>
         Selectors
-        <link rel="stylesheet" href="./selector.css">
     </title>
+    <style>
+     .container{
+        background-color: cadetblue;
+
+     }
+     .class>p{
+            background-color:blueviolet;
+            font-weight: bolder;
+            border-radius: 10px;
+            width: auto;
+     }
+        
+    </style>
 </head>
 <body>
     <div class="container">
-           <h1>Iam Asritha</h1>
-           <h1>Iam srija</h1>
+           <h1>this is a descendent selector</h1>
+           <p>This is  about selectors</p>
     </div>
-    <div clas="works">
-        <h1>iam jghgudb cvx</h1>
-        <h2>bgyhijknb</h2>
-
+    <div class="class">
+       <p>This is a parent class</p>
+            <div>
+                <p> This is a child class</p> 
+            </div>
+                     <div>
+                        <p>This is another child class</p> 
+                     </div>
+          
     </div>
+    
 </body>
